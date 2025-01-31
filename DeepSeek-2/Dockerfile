@@ -51,3 +51,6 @@ CMD [ "echo", "Successfully installed!" ]
 
 #app> ollama run llama3 --verbose
 
+# curl -X POST http://localhost:11434/api/generate -d '{  "model": "llama3",  "prompt":"What is water?"}'
+
+# curl -X POST http://localhost:11434/api/generate -d '{  "model": "deepseek-r1",  "prompt":"What is water?"}'
